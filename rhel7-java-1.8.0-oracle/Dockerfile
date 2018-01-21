@@ -1,5 +1,5 @@
-FROM registry.access.redhat.com/rhel7:latest
-MAINTAINER Johnathan Kupferer <jkupfere@redhat.com>
+FROM rhel7:latest
+MAINTAINER x
 
 ENV JAVA_VERSION=${JAVA_VERSION:-1.8.0} \
     JAVA_TYPE=${JAVA_TYPE:-oracle}
